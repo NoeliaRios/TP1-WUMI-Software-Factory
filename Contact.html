@@ -2,11 +2,11 @@
 
 <head>
     <meta charset=UTF-8>
-    <link rel="stylesheet" type="text/css" href="TP1.css" />
+    <link rel="stylesheet" type="text/css" href="Contact.css" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-        crossorigin="anonymous">
+    crossorigin="anonymous">
 </head>
 
 <body>
@@ -25,39 +25,35 @@
         </div>
     </div>
 
-    <div class="aboutus">
-
-        <div class="imagen1">
-            <img src="images1.jpg" />
-        </div>
-
-        <div class="texto1">
-            <h2>¿Quienes somos?</h2>
-
-            <p>Somos un grupo de mujeres desarrolladoras, amantes del css.</p>
-            <a href="#">Ver más.</a>
-        </div>
-
-    </div>
-
-    <div class="ourwork">
-        <div class="texto1">
-            <h2>Nuestro trabajo</h2>
-            Desarrollamos soluciones con creatividad y eficiencia.
-            <a href="#">Ver más.</a>
-        </div>
-        <div class="imagen1">
-            <img src="images1.jpg" />
-        </div>
-    </div>
-
     <div class="contactus">
-        <div class="texto1">
-            <h2>Si te queres contactar con nosotras, no dudes en hacer click acá.</h2>
-            <a href="#">Acá!</a>
-        </div>
+        <h1>¿Desea contactarse con nosotras?</h1>
+        <p>Contanos tu proyecto.
+            Nos gusta eschuchar para ofrecer las mejores soluciones y aportaciones a tu proyecto.
 
+            Si tenes dudas o queres aportarnos alguna sugerencia o propuesta, ¡contactanos sin compromiso!</p>
     </div>
+
+    <div class="formulario">
+        <form action="#" method="GET">
+
+            <input type="text" name="name" placeholder="Nombre o empresa" /><br>
+
+            <input type="text" name="email" placeholder="Email" /><br>
+
+            <input type="text" name="telefono" placeholder="Teléfono" /><br>
+
+            <select name="select">
+                <option value="1">Quiero pedir presupuesto</option>
+                <option value="2">Quiero enviar mi CV</option>
+                <option value="3">Otros</option>
+            </select><br>
+
+            <textarea rows="6" cols="50" placeholder="Escriba aquí su mensaje."></textarea><br>
+
+            <input type="submit" value="Enviar" id="button">
+        </form>
+    </div>
+
 
     <div class="footer">
         <div class="agencia">
@@ -85,8 +81,6 @@
 
 
     </div>
-
-
 
 </body>
 
