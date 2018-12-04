@@ -12,26 +12,26 @@ body{
 .logo img{    
     height:100%;
     width:310px;
-    
-    margin:20px auto;
+    margin:25px auto;
     display:flex;
     align-content: center;
 }
 
-.toplinks nav{   
+.toplinks nav{    
     height:5%;
-    display:flex;    
+    margin:10px;
+    display:flex;
     justify-content: center;
-    align-items:center;
+    align-items:center;    
 }
 
 .toplinks a{
-    padding: 10px;
+    padding:10px;
     text-decoration: none;
     color:black;
     margin-left:auto;
-    margin-right:auto;
-    font-size:20px;    
+    margin-right:auto;    
+    font-size: 20px;    
 }
 
 .toplinks a:hover{
@@ -46,41 +46,51 @@ h1{
     font-size: 45px;
 }
 
-h2{
-    font-size: 30px;
-}
-
 h4{
     margin:10px;
 }
 
-p{    
-    font-size: 20px;    
+p{
+    font-size:20px;
 }
 
-.aboutus, .ourwork, .contactus {
-    height: 30%;
-    margin: 40px;
-    display: flex;
-    justify-content: space-around;
+.contactus p{    
+    font-size: 20px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.contactus{ 
+    margin:40px;
+    
+}
+
+form{   
+    width:450px;       
     padding:20px;
+    margin:40px auto;
     background: rgb(172,182,231);
-background: linear-gradient(90deg, rgba(172,182,231,1) 0%, rgba(254,165,255,1) 100%);
+background: linear-gradient(90deg, rgba(172,182,231,1) 0%, rgba(254,165,255,1) 100%);   
     border-radius: 15px;
-    color:black;
 }
 
-
-.imagen1 img{
-    height:80%;
-    margin:10px;
-}
-.imagen1{
-    display:flex;
-    align-items: center;
-    justify-content: center;
+input, textarea, select {
+    width:100%;
+    padding:10px;
+    margin-bottom: 20px;
 }
 
+#button{
+    background: rgb(53, 13, 53);
+    color:white;
+    padding: 15px;
+    border:none;
+}
+
+#button:hover{
+    cursor: pointer;
+}
 
 .footer a{
     text-decoration: none;
@@ -94,11 +104,12 @@ background: linear-gradient(90deg, rgba(172,182,231,1) 0%, rgba(254,165,255,1) 1
     color:white;
     height:25%;
     display:flex;
-    justify-content: space-around;    
+    justify-content: space-around;
     align-items: center;
 }
 
 .lista1{
+  
     text-align: center;
     
 }
@@ -110,10 +121,7 @@ background: linear-gradient(90deg, rgba(172,182,231,1) 0%, rgba(254,165,255,1) 1
     width:50px;
 }
 
-a{
-    text-decoration: none;
-}
-
 a:hover{
     color:violet;
 }
+
