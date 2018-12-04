@@ -4,17 +4,20 @@ body{
     color: black;
     background: white;
 }
+
 .logo{
-    height:10%;
+    height:15%;
 }
 
 .logo img{    
     height:100%;
     width:310px;
+    
     margin:20px auto;
     display:flex;
     align-content: center;
 }
+
 .toplinks nav{   
     height:5%;
     display:flex;    
@@ -23,6 +26,7 @@ body{
 }
 
 .toplinks a{
+    padding: 10px;
     text-decoration: none;
     color:black;
     margin-left:auto;
@@ -42,6 +46,10 @@ h1{
     font-size: 45px;
 }
 
+h2{
+    font-size: 30px;
+}
+
 h4{
     margin:10px;
 }
@@ -59,7 +67,9 @@ p{
     background: rgb(172,182,231);
 background: linear-gradient(90deg, rgba(172,182,231,1) 0%, rgba(254,165,255,1) 100%);
     border-radius: 15px;
+    color:black;
 }
+
 
 .imagen1 img{
     height:80%;
@@ -98,6 +108,10 @@ background: linear-gradient(90deg, rgba(172,182,231,1) 0%, rgba(254,165,255,1) 1
 
 .fab{
     width:50px;
+}
+
+a{
+    text-decoration: none;
 }
 
 a:hover{
