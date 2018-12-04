@@ -12,7 +12,7 @@ body{
 .logo img{    
     height:100%;
     width:310px;
-    margin:20px auto;
+    margin:25px auto;
     display:flex;
     align-content: center;
 }
@@ -27,12 +27,17 @@ body{
 }
 
 .toplinks a{
+    padding:10px;
     text-decoration: none;
     color:black;
     margin-left:auto;
     margin-right:auto;    
-    font-size: 20px;
-    
+    font-size: 20px;    
+}
+
+.toplinks a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: violet;   
 }
 
 h1{   
@@ -57,8 +62,9 @@ p{
 form{   
     width:450px;       
     padding:20px;
-    margin:40px auto;   
-    background-image: linear-gradient( 259deg,  rgba(222,95,95,1) -5%, rgba(53,88,218,1) 133.7% );  
+    margin:40px auto;
+    background: rgb(172,182,231);
+background: linear-gradient(90deg, rgba(172,182,231,1) 0%, rgba(254,165,255,1) 100%);   
     border-radius: 15px;
 }
 
@@ -97,6 +103,7 @@ input, textarea, select {
 }
 
 .lista1{
+  
     text-align: center;
     
 }
@@ -106,4 +113,8 @@ input, textarea, select {
 
 .fab{
     width:50px;
+}
+
+a:hover{
+    color:violet;
 }
