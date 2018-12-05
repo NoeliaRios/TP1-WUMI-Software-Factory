@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    margin-left:10px;
+    margin-right:10px;
+    font-family: 'Lato', sans-serif;
+    background: white;
+}
+.logo{
+    text-align: center;
+    height:15%;
+}
+.toplinks nav{
+    background: white;
+    height:10%;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+}
+
+.toplinks a{
+    text-decoration: none;
+    color: black;
+    margin-left:auto;
+    margin-right:auto;
+    font-weight: bold;
+}
+
+
+.footer nav{
+    background: black;
+    height:15%;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.quienessomos {
+    background: rgb(172,182,231);
+    background: linear-gradient(90deg, rgba(172,182,231,1) 0%, rgba(254,165,255,1) 100%);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+
+}
+.quienesrow {
+    color: black;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(172,182,231);
+    background: linear-gradient(90deg, rgba(172,182,231,1) 0%, rgba(254,165,255,1) 100%);
+    margin: 25px;
+    padding: 3%
+}
+
+.quienestexto {
+        width: 80%;
+        margin-left: 20px  
+}
+
+h2 {
+    font-size: 45px;
+}
+p {
+    font-size: 20px;
+}
+
+.footer {
+    background: black;
+    color:white;
+    height:25%;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.footer a {
+    color:white;
+}
+
+.lista1 {
+  text-align: center;
+}
+
+.fab{
+    width:50px;
+}
+
+a:hover{
+    color:violet;
+}
