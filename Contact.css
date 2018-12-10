@@ -40,8 +40,9 @@ body{
 }
 
 h1{   
-    width:670px;
-    margin:auto;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
     margin-bottom:40px; 
     font-size: 45px;
 }
@@ -62,8 +63,7 @@ p{
 }
 
 .contactus{ 
-    margin:40px;
-    
+    margin:40px;    
 }
 
 form{   
@@ -102,7 +102,7 @@ input, textarea, select {
 .footer {
     background: black;
     color:white;
-    height:25%;
+    height:15%;
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -125,3 +125,25 @@ a:hover{
     color:violet;
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+
+    .contactus p{
+        margin-left:0.5%;
+        margin-right: 0.5%;
+    }
+
+    .formulario{
+       width: 100%;
+       margin-left:auto;
+       margin-right: auto;       
+    }
+
+    form{
+        width:80%;
+        height:auto;
+    }
+
+
+
+    
+}
