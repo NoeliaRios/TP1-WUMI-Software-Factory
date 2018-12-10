@@ -22,7 +22,7 @@ body{
     margin:10px;
     display:flex;
     justify-content: center;
-    align-items:center;    
+    align-items:center;        
 }
 
 .toplinks a{
@@ -108,11 +108,10 @@ input, textarea, select {
     align-items: center;
 }
 
-.lista1{
-  
-    text-align: center;
-    
+.lista1{  
+    text-align: center;    
 }
+
 .lista1 a{
     padding:10px;
 }
@@ -127,6 +126,17 @@ a:hover{
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
 
+    body{
+        margin:0;
+    }
+
+    .toplinks nav{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
     .contactus p{
         margin-left:0.5%;
         margin-right: 0.5%;
@@ -141,6 +151,10 @@ a:hover{
     form{
         width:80%;
         height:auto;
+    }
+
+    .fab{
+        width:20px;
     }
 
 
